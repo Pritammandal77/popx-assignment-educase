@@ -18,9 +18,9 @@ function SignUp() {
   return (
     <>
       <div className='flex items-center justify-center'>
-        <div className='w-[100vw] h-screen px-5 py-10 pb-15 md:w-100 xl:border-1 xl:border-gray-300 flex flex-col gap-5 bg-[#F7F8F9]'>
+        <div className='w-[100vw] h-screen px-5 py-7 pb-15 md:w-100 xl:border-1 xl:border-gray-300 flex flex-col gap-5 bg-[#F7F8F9]'>
           <h1 className='text-3xl font-bold'>Create your <br/> PopX account</h1>
-          <form action="" id="signUpForm" className='flex flex-col gap-4' onSubmit={() => handleSubmit(event)} >
+          <form action="" id="signUpForm" className='flex flex-col gap-1' onSubmit={() => handleSubmit(event)} >
             <div className='flex flex-col'>
               <label className='text-[#7330FF] bg-white w-fit relative top-3 left-2 px-1'>Full Name
                 <span className='text-red-500'>*</span>
@@ -56,7 +56,7 @@ function SignUp() {
               <input type="text" className='border-1 border-gray-500 px-3 py-2 rounded bg-white' placeholder='Enter your company name' required />
             </div>
             <div className='flex flex-col'>
-              <div className='flex'>
+              <div className='flex p-1'>
                 <p>Are you an agency?</p><span className='text-red-500'>*</span>
               </div>
               <div className='flex gap-10 items-center'>
@@ -69,7 +69,6 @@ function SignUp() {
                   <span>No</span>
                 </label>
               </div>
-
             </div>
           </form>
           <div className='w-full self-end mt-auto'>
