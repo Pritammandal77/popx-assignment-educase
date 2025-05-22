@@ -6,10 +6,9 @@ A modern, responsive web app built with **React.js**, styled with **Tailwind CSS
 
 ## ✨ Features
 
-- ✅ **Login Page** – Simple and clean interface for user authentication.
+- 🏠 **Home Page** – A beautifully crafted landing page ,pre-login page.
 - 📝 **Create Account Page** – Sign up with ease using a minimal yet elegant form.
 - 🔐 **Sign-in Page** – Enter credentials securely to access the app.
-- 🏠 **Home Page** – A beautifully crafted landing page post-login.
 - ⚙️ **Account Settings** – Customize your profile and manage preferences.
 
 ---
