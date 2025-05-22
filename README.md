@@ -24,10 +24,3 @@ A modern, responsive web app built with **React.js**, styled with **Tailwind CSS
 
 ---
 
-## 📸 Screenshots
-
-*(You can insert screenshots here using markdown if you have them)*
-
-```markdown
-![Login Page](screenshots/login.png)
-![Create Account](screenshots/signup.png)
